@@ -1,0 +1,406 @@
+body{
+    padding: 0; margin: 0;
+    background-color: #000;
+}
+.XPG_logo{
+    position: absolute;
+    left: 187px;
+    top: 6px;
+}                                                       
+.one, .two, .three, .four{
+    position: absolute;
+    top: 3%;
+}
+.one{
+    position: absolute;
+    left: 600px;
+}
+.two{
+    position: absolute;
+    left: 694px;
+}
+.three{
+    position: absolute;
+    left: 840px;
+}
+.four{
+    position: absolute;
+    left: 980px;
+}
+a{
+    position: absolute;
+    left: 480px;
+    top: 3%;
+    text-decoration: none;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+a:hover{
+    color: #D00;
+}
+.xpg_02{
+    position: absolute;
+    left: 1257px;
+    top: 6px;
+}
+.st_p{                             /* Where to buy */
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    font-size: 30px;
+    color: #f00;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nd_p{                            /* Step1. Please select your channel type to find the relevant information: */
+    position: absolute;
+    top: 23%;
+    left: 26%;
+    font-size: 14px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wheretobuy_arrow{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.slone{                         /* Select the */
+    position: absolute;
+    top: 23%;
+    left: 65%;
+    font-size: 30px;
+    color: #f00;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sltwo{                       /* Country */
+    position: absolute;
+    top: 25%;
+    left: 66%;
+    font-size: 30px;
+    color: #f00;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+select{
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    width: 155px;
+    background: #333;
+    color: rgb(197, 197, 197);
+    border: 1px solid #f00;
+    height: 21px;
+    outline: none;
+}
+.sldiv{                                                     /* The larg div it's contain four child divs */
+    position: absolute;
+    top: 31%;
+    left: 25%;
+    background-color: #181818;
+    border-radius: 10px;
+    border: 5px solid #f00;
+    border-style: groove;
+    width: 780px;
+    height: 82px;
+}
+.sdiv{                                                         /* Dealer */
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    display: inline;
+    width: 80px;
+    background: #ff1414;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 30px;
+    border: 1px solid rgb(228, 101, 101);
+    border-radius: 5px;
+}
+.fone{
+    position: absolute;
+    left: 10%;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ll{
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ssdiv{                                                       /* Distributors */
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    display: inline;
+    width: 80px;
+    background: #ff1414;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 30px;
+    border: 1px solid rgb(228, 101, 101);
+    border-radius: 5px;
+}
+.ftwo{
+    position: absolute;
+    left: 33%;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sssdiv{                                                        /* Retailers */
+    position: absolute;
+    top: 47%;
+    left: 54%;
+    display: inline;
+    width: 80px;
+    background: #ff1414;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 30px;
+    border: 1px solid rgb(228, 101, 101);
+    border-radius: 5px;
+}
+.fthree{
+    position: absolute;
+    left: 59%;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ssssdiv{                                                   /* Online Partners */
+    position: absolute;
+    top: 47%;
+    left: 78%;
+    display: inline;
+    width: 80px;
+    background: #ff1414;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 30px;
+    border: 1px solid rgb(228, 101, 101);
+    border-radius: 5px;
+}
+.ffour{
+    position: absolute;
+    left: 80%;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+                                                               /* The End */
+.wheretobuy_arrow_1{
+    position: absolute;
+    top: 43%;
+    left: 25%;
+}
+.rd_p{                                                       /* Egypt */
+    position: absolute;
+    top: 41%;
+    left: 26%;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.type{                                    /* A larg div it's contain six images */
+    width: 767px;
+    height: 320px;
+    position: absolute;
+    top: 47%;
+    left: 26%;
+    background: #181818;
+}
+.img_1{           
+    position: absolute;
+    top: 7% ;
+    left: 8%;
+}
+.img_2{
+    position: absolute;
+    top: 21%;
+    left: 31%;
+}
+.img_3{
+    position: absolute;
+    top: 17%;
+    left: 54%;
+}
+.im{
+    width: 120px;
+}
+.img_4{
+    position: absolute;
+    top: 22%;
+    left: 77%;
+}
+.img_5{
+    position: absolute;
+    top: 53%;
+    left: 8%;
+}
+.img_6{
+    position: absolute;
+    top: 58%;
+    left: 31%;
+}
+.border_top{
+    position: absolute;
+    top: 45%;
+    left: 394px;
+}
+.border_bottom{
+    position: absolute;
+    top: 76%;
+    left: 394px;
+}
+.border_right{
+    position: absolute;
+    top: 48%;
+    left: 392px;
+}
+.border_left{
+    position: absolute;
+    top: 48%;
+    left: 1170px;
+}
+.top{
+    position: absolute;
+    top: 79%;
+    left: 73%;
+    font-size: normal;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.last{                                             /* A div countain hyperlinks */
+    position: absolute;
+    bottom: 0%;
+    height: 200px;
+    width: 1600px;
+    background: rgb(16, 16, 16);
+    border-top: 4px solid rgb( 92, 0, 0 );
+}
+.PRODUCTS, .SUPPORT, .COMPANYINFO{
+    font-size: 17px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.PRODUCTS{
+    position: absolute;
+    top: 11%;
+    left: 10%;
+}
+.SUPPORT{
+    position: absolute;
+    top: 11%;
+    left: 40%;
+}
+.COMPANYINFO{
+    position: absolute;
+    top: 11%;
+    left: 70%;
+}
+.Fcolumn_1, .Fcolumn_2, .Fcolumn_3, .Fcolumn_4, .Fcolumn_5, .Fcolumn_6, .Scolumn_1, .Scolumn_2, .Scolumn_3, 
+.Scolumn_4, .Scolumn_5, .Scolumn_6, .Tcolumn_1,.Tcolumn_2, .Tcolumn_3{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #888;
+}
+.Fcolumn_1{
+    position: absolute;
+    top: 39%;
+    left: 168px;
+}
+.Fcolumn_2{
+    position: absolute;
+    top: 55%;
+    left: 168px;
+}
+
+.Fcolumn_3{
+    position: absolute;
+    top: 71%;
+    left: 168px;
+}
+.Fcolumn_4{
+    position: absolute;
+    top: 39%;
+    left: 393px;
+}
+.Fcolumn_5{
+    position: absolute;
+    top: 55%;
+    left: 393px;
+}
+.Fcolumn_6{
+    position: absolute;
+    top: 71%;
+    left: 393px;
+}
+.Scolumn_1{
+    position: absolute;
+    top: 39%;
+    left: 647px;
+}
+.Scolumn_2{
+    position: absolute;
+    top: 55%;
+    left: 647px;
+}
+.Scolumn_3{
+    position: absolute;
+    top: 71%;
+    left: 647px;
+}
+.Scolumn_4{
+    position: absolute;
+    top: 39%;
+    left: 873px;
+}
+.Scolumn_5{
+    position: absolute;
+    top: 55%;
+    left: 873px;
+    line-height: 25px;
+}
+.Scolumn_6{
+    position: absolute;
+    top: 86%;
+    left: 873px;
+}
+.Tcolumn_1{
+    position: absolute;
+    top: 39%;
+    left: 1126px;
+}
+.Tcolumn_2{
+    position: absolute;
+    top: 55%;
+    left: 1126px;
+}
+.Tcolumn_3{
+    position: absolute;
+    top: 71%;
+    left: 1126px;
+}
+.Tcolumn_4, .Tcolumn_5{
+    font-size: 17px;
+    color: #fff;   
+}
+.Tcolumn_4{
+    position: absolute;
+    top: 18%;
+    left: 85%;
+}
+.Tcolumn_5{
+    position: absolute;
+    top: 65%;
+    left: 85%;
+}
+.Tcolumn_4:hover, .Tcolumn_5:hover{
+    color: #fff;
+}
+.copy{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb( 92, 0, 0 );
+    color: #fff;
+    text-align: right;
+}
