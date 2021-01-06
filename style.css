@@ -7,25 +7,29 @@ body{
     left: 187px;
     top: 6px;
 }                                                       
-.one, .two, .three, .four{
+.one, .two, .three, .four,.five{
     position: absolute;
-    top: 3%;
+    top: 30px;
 }
 .one{
     position: absolute;
-    left: 600px;
+    left: 519px;
 }
 .two{
     position: absolute;
-    left: 694px;
+    left: 635px;
 }
 .three{
     position: absolute;
-    left: 840px;
+    left: 730px;
 }
 .four{
     position: absolute;
-    left: 980px;
+    left: 881px;
+}
+.five{
+    position: absolute;
+    left: 1020px;
 }
 a{
     position: absolute;
@@ -41,51 +45,43 @@ a:hover{
 }
 .xpg_02{
     position: absolute;
-    left: 1257px;
+    left: 1337px;
     top: 6px;
 }
 .st_p{                             /* Where to buy */
     position: absolute;
-    top: 16%;
-    left: 25%;
+    top: 165px;
+    left: 436px;
     font-size: 30px;
     color: #f00;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .nd_p{                            /* Step1. Please select your channel type to find the relevant information: */
     position: absolute;
-    top: 23%;
-    left: 26%;
+    top: 237px;
+    left: 450px;
     font-size: 14px;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .wheretobuy_arrow{
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 257px;
+    left: 435px;
 }
-.slone{                         /* Select the */
+.Select_the_country{                         /* Select the country */
     position: absolute;
-    top: 23%;
-    left: 65%;
-    font-size: 30px;
-    color: #f00;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.sltwo{                       /* Country */
-    position: absolute;
-    top: 25%;
-    left: 66%;
-    font-size: 30px;
+    top: 249px;
+    left: 1080px;
+    font-size: 15px;
     color: #f00;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 select{
     position: absolute;
-    top: 28%;
-    left: 45%;
-    width: 155px;
+    top: 274px;
+    left: 1063px;
+    width: 159px;
     background: #333;
     color: rgb(197, 197, 197);
     border: 1px solid #f00;
@@ -94,11 +90,11 @@ select{
 }
 .sldiv{                                                     /* The larg div it's contain four child divs */
     position: absolute;
-    top: 31%;
-    left: 25%;
+    top: 306px;
+    left: 440px;
     background-color: #181818;
     border-radius: 10px;
-    border: 5px solid #f00;
+    border: 5px solid #D00;
     border-style: groove;
     width: 780px;
     height: 82px;
@@ -118,11 +114,13 @@ select{
 }
 .fone{
     position: absolute;
-    left: 10%;
+    left: 11%;
+    font-size: 14px;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .ll{
+    font-size: 14px;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -141,7 +139,8 @@ select{
 }
 .ftwo{
     position: absolute;
-    left: 33%;
+    left: 34%;
+    font-size: 14px;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -161,6 +160,7 @@ select{
 .fthree{
     position: absolute;
     left: 59%;
+    font-size: 14px;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -179,44 +179,46 @@ select{
 }
 .ffour{
     position: absolute;
-    left: 80%;
+    left: 81%;
+    font-size: 14px;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
                                                                /* The End */
 .wheretobuy_arrow_1{
     position: absolute;
-    top: 43%;
-    left: 25%;
+    top: 437px;
+    left: 437px;
 }
 .rd_p{                                                       /* Egypt */
     position: absolute;
-    top: 41%;
-    left: 26%;
+    top: 416px;
+    left: 452px;
+    font-size: 14px;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .type{                                    /* A larg div it's contain six images */
     width: 767px;
-    height: 320px;
+    height: 313px;
     position: absolute;
-    top: 47%;
-    left: 26%;
+    top: 485px;
+    left: 450px;
     background: #181818;
 }
 .img_1{           
     position: absolute;
-    top: 7% ;
+    top: 4% ;
     left: 8%;
 }
 .img_2{
     position: absolute;
-    top: 21%;
+    top: 18%;
     left: 31%;
 }
 .img_3{
     position: absolute;
-    top: 17%;
+    top: 14%;
     left: 54%;
 }
 .im{
@@ -224,43 +226,43 @@ select{
 }
 .img_4{
     position: absolute;
-    top: 22%;
+    top: 19%;
     left: 77%;
 }
 .img_5{
     position: absolute;
-    top: 53%;
+    top: 50%;
     left: 8%;
 }
 .img_6{
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 31%;
 }
 .border_top{
     position: absolute;
-    top: 45%;
-    left: 394px;
+    top: 455px;
+    left: 432px;
 }
 .border_bottom{
     position: absolute;
-    top: 76%;
-    left: 394px;
+    top: 787px;
+    left: 432px;
 }
 .border_right{
     position: absolute;
-    top: 48%;
-    left: 392px;
+    top: 482px;
+    left: 430px;
 }
 .border_left{
     position: absolute;
-    top: 48%;
-    left: 1170px;
+    top: 482px;
+    left: 1208px;
 }
 .top{
     position: absolute;
-    top: 79%;
-    left: 73%;
+    top: 815px;
+    left: 1207px;
     font-size: normal;
     color: #fff;
     text-decoration: none;
@@ -269,9 +271,9 @@ select{
 }
 .last{                                             /* A div countain hyperlinks */
     position: absolute;
-    bottom: 0%;
+    top: 840px;
     height: 200px;
-    width: 1600px;
+    width: 1663px;
     background: rgb(16, 16, 16);
     border-top: 4px solid rgb( 92, 0, 0 );
 }
@@ -403,4 +405,34 @@ select{
     background-color: rgb( 92, 0, 0 );
     color: #fff;
     text-align: right;
+}
+.red{
+    position: absolute;
+    top: 1045px;
+    width: 1663px;
+    height: 34px;
+    background: rgb( 92, 0, 0 );
+}
+.eg{
+    position: absolute;
+    top: 11px;
+    left: 157px;
+    display: inline;
+}
+.eg_a{
+    position: absolute;
+    top: 5px;
+    left: 180px;
+    display: inline;
+}
+.copy{
+    position: absolute;
+    top: 0px;
+    left: 1180px;
+    display: inline;
+    font-size: 14px;
+    width: 400px;
+    height: 5px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
